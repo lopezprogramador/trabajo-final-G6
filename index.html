@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Restaurante Al Toque</title>
+    <script src="https://kit.fontawesome.com/283335a286.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&family=Mulish:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="encabezado">
+        <div class="contenedor-navegacion">
+            <div class="contenido-navegacion contenedor">
+                <div class="logo">
+                    <h2>Restaurante <span class="rojo">al</span><span>to</span><span class="rojo">que</span></h2>
+                </div>
+                <nav class="navegacion ocultar">
+                    <a href="pedir ahora.html">pedir ahora</a>
+                    <a href="nosotros.html">nosotros</a>
+                    <a href="contacto.html">Contacto</a>
+                    <a href="menu.html">menu</a>
+                </nav>
+                <a href="iniciar-sesion.html" target="_blank" class="btn btn-danger btn-iniciar-sesion">Iniciar Sesión</a>
+                <div class="letrero">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+        <div class="contenido-header">
+            <div class="contenedor-encabezado">
+                <div class="texto-encabezado">
+                    <a href="#menu" class="btn bordes">NUESTRO MENÚ ya somos parte de tu familia</a>
+                </div>
+                <video autoplay loop muted>
+                    <source src="https://www.dropbox.com/scl/fi/xy39ofyjceoixyli5m4o4/Presentaci-n-comida-estilo-creativo-naranja.mp4?rlkey=35i28drchiw8tyvst9bjubwrn&st=ygm5e0qy&dl=1" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </header>
+
+    <section class="menu contenedor">
+        <h2 class="texto-platillos">Platillos populares</h2>
+        <div class="botones-platillos">
+            <button class="todos btn btn-verde">Todos</button>
+            <button class="ensaladas btn btn-verde">Ensaladas</button>
+            <button class="pasta btn btn-verde">Pasta</button>
+            <button class="pizza btn btn-verde">Pizza</button>
+            <button class="postres btn btn-verde">Postres</button>
+        </div>
+        <div class="platillos">
+            <div class="platillo" data-platillo="ensalada">
+                <img data-src="https://hips.hearstapps.com/elle-es/assets/15/37/original/original-1456994110-hero1.jpg"
+                    alt="ensalada">
+                <h2>ensalada con queso</h2>
+                <p>col, quezo, tomate, aceitunas, lechuga.</p>
+                <div class="precio">
+                    <p>s/45.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="ensalada americana">
+                <img data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKa0XGOe4MB1ubJEd2iKOB6wAWQjEtxJ4NgQ&s"
+                    alt="ensalada">
+                <h2>ensalada americana</h2>
+                <p>lechuga, cerezas, tomate, pepino,cebolla, zanahoria.</p>
+                <div class="precio">
+                    <p>s/50.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="ensalada al peruano">
+                <img data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKTQWlb9XLIWT7S08GJz7M3FMYpgu_rngusA&s"
+                    alt="ensalada">
+                <h2>ensalada al peruano</h2>
+                <p>pepino, repollo, tomate, aceitunas, lechuga.</p>
+                <div class="precio">
+                    <p>s/40.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pasta al alfredo">
+                <img data-src="https://imag.bonviveur.com/fettuccine-alfredo_400.webp" alt="pasta">
+                <h2>pasta al alfredo</h2>
+                <p>pasta, quezo, peregil, aceite, .</p>
+                <div class="precio">
+                    <p>s/25.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pasta italiana">
+                <img data-src="https://imag.bonviveur.com/farfalle-con-salmon_400.webp" alt="pasta">
+                <h2>pasta italiana</h2>
+                <p>verdiras, spaguety, queso,.</p>
+                <div class="precio">
+                    <p>s/42.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pasta carbonara">
+                <img data-src="https://imag.bonviveur.com/espaguetis-a-la-bolonesa_400.webp" alt="pasta">
+                <h2>pasta carbonara</h2>
+                <p>quezo, verduras, tomate, aceitunas, espaguety.</p>
+                <div class="precio">
+                    <p>s/52</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pizza peperoni">
+                <img data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOy3M1p5uaxMvlBn6z2Je1_xoX6LLU1OOcWA&s"
+                    alt="pizza">
+                <h2>pizza peperoni</h2>
+                <p>harina, quezo, aceite, cereal.</p>
+                <div class="precio">
+                    <p>s/40.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pizza hawallana">
+                <img data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0SRoz8fOBb_0erZJJ0YEowqOIDinrk_Nqrw&s"
+                    alt="pizza">
+                <h2>pizza hawallana</h2>
+                <p>Quezo, jamon, harina, piña,</p>
+                <div class="precio">
+                    <p>s/25.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pizza">
+                <img data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvc5ybX2zG1FX6f_tXn0xoVjfFkn4FjC314w&s"
+                    alt="pizza napolitana">
+                <h2>pizza napolitana</h2>
+                <p>Quezo, cerezas, tomate, harina, jamon.</p>
+                <div class="precio">
+                    <p>s/42.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo=" arroz ala canela">
+                <img data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3sy1t_o8Ag6TtK50MHp9YEFbDyRqSbgY0Tw&s"
+                    alt="postre">
+                <h2> arroz ala canela</h2>
+                <p>arroz, cerezas, leche, canela, cereal.</p>
+                <div class="precio">
+                    <p>s/18.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="turron al manjar">
+                <img data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_8sIgSye8kqawzjTwR2E0K7NAVl8TfR35DQ&s"
+                    alt="postre">
+                <h2> turron al manjar</h2>
+                <p>harina, manajar blanco, leche, fresa, </p>
+                <div class="precio">
+                    <p>s/40.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="postre">
+                <img data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGuk5M9YdV_otiH0IHP2lm2NFLczm7uegvNg&s"
+                    alt=" rosa blanca">
+                <h2> rosa blanca</h2>
+                <p>harina, manjar, maracuya, coco, cereza.</p>
+                <div class="precio">
+                    <p>s/20.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="separador">
+        <div class="contenido-separador contenedor">
+            <h2>Comida para empezar el día</h2>
+            <p>Empieza tu día comiedo deliciosa pizza hallana</p>
+            <a href="#" class="btn btn-verde">Ordenar ahora</a>
+        </div>
+    </div>
+
+    <section class="chef contenedor">
+        <div class="contenido-chef">
+            <div class="texto-chef">
+                <h3>La exelencia está en la diversidad y el modo de progresar
+                    es conocer y comparar las diversidades de productos, culturas y
+                    técnicas
+                </h3>
+                <p>Soy el chef de "Restaurante Al Toque" y quiero darles una cálida bienvenida.
+                    En nuestro restaurante, cada plato se prepara con dedicación y pasión por la cocina rápida pero
+                    deliciosa.
+                    Nos enorgullece ofrecerles jugosas hamburguesas, crujientes pizzas, ensaladas frescas y exquisitos
+                    postres, todos hechos con ingredientes de primera calidad.
+                    Es un placer para mí y mi equipo servirles y asegurarnos de que cada visita sea una experiencia
+                    inolvidable. Gracias por su preferencia y ¡buen provecho!.</p>
+                <a href="#" class="btn btn-verde">pide hoy altoque</a>
+            </div>
+            <div class="imagen-chef">
+                <img data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs9WwFZ82fztxuPj47xwBXrDK0avCJbS-XBw&s"
+                    alt="chef">
+            </div>
+        </div>
+    </section>
+        <div class="pie-pagina ">
+            <div class="contenedor-piepagina contenedor">
+                <div class="info">
+                    <h3>Dirección</h3>
+                    <p>av.canada, san borja</p>
+                </div>
+                <div class="info">
+                    <h3>Días especiales</h3>
+                    <p>Sabados y Jueves 7am - 11pm</p>
+                    <p>01 6341092</p>
+                </div>
+                <div class="info">
+                    <h3>Horarios</h3>
+                    <p>Lunes - Domingo 7am - 11pm</p>
+                    <div class="redes-sociales redes-pie">
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-twitter-square"></i>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="info">
+                    <h3>Noticias</h3>
+                    <p>suscribete para recibir más promociones</p>
+                    <input type="email" placeholder="Tu correo">
+                    <input type="submit" class="btn btn-verde" value="Suscribirse">
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <p>Todos los derechos reservados &copy; 2024 roberto lopez, desarrollado por el grupo 6</p>
+        </footer>
+        <script src="js.js"></script>
+</body>
+</html>

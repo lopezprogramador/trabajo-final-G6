@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contact-page">
+        <h2>Contáctanos</h2>
+        <section>
+            <form>
+                <div class="row g-3 align-items-center">
+                    <div class="col-auto">
+                        <label for="inputNumero" class="col-form-label">Déjanos tu número</label>
+                    </div>
+                    <div class="col-auto">
+                        <input type="tel" id="inputNumero" class="form-control" aria-describedby="numeroHelpInline" required>
+                    </div>
+                    <div class="col-auto">
+                        <span id="numeroHelpInline" class="form-text">Te llamamos.</span>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-verde">Enviar</button>
+            </form>
+        </section>
+        <h2>Estamos a un solo clic de tu teléfono</h2>
+        <div class="image-container">
+            <img src="https://media-cdn.tripadvisor.com/media/photo-s/0a/41/b6/f4/google-maps.jpg" alt="mapa" class="responsive-image">
+            <div>
+                <button><i class="ubicanos"></i>Ubícanos</button>
+            </div>
+        </div>
+
+        <div class="pie-pagina">
+            <div class="contenedor-piepagina contenedor">
+                <div class="info">
+                    <h3>Dirección</h3>
+                    <p>Av. Canada 286, San Borja</p>
+                </div>
+                <div class="info">
+                    <h3>Días especiales</h3>
+                    <p>Sábados y Jueves 7am - 11pm</p>
+                    <p>51 923327532</p>
+                </div>
+                <div class="info">
+                    <h3>Horarios</h3>
+                    <p>Lunes - Domingo 7am - 11pm</p>
+                </div>
+                <div class="info">
+                    <h3>Noticias</h3>
+                    <p>Suscríbete para recibir más noticias</p>
+                    <input type="email" placeholder="Tu correo" required>
+                    <input type="submit" class="btn btn-verde" value="Suscribirse">
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>Todos los derechos reservados &copy; 2024 Roberto Lopez, desarrollado por Grupo Chinchirata</p>
+        </footer>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
