@@ -40,7 +40,6 @@
 9. [🔧 Estrategia de Implementación y Despliegue 🔧](#🔧-estrategia-de-implementación-y-despliegue-🔧)
    1. [Plan de Implementación](#plan-de-implementación)
    2. [Despliegue y Escalabilidad](#despliegue-y-escalabilidad)
-   3. [Presupuesto](#presupuesto)
    4. [Fases del Proyecto](#fases-del-proyecto)
    5. [Cronograma](#cronograma)
 10. [📈 Estrategia de Monitoreo y Mantenimiento 📈](#📈-estrategia-de-monitoreo-y-mantenimiento-📈)
